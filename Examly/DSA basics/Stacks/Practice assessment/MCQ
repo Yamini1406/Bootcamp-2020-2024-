@@ -1,0 +1,26 @@
+1) For a stack of size N, s[N-1] will return the top of stack
+2) The postfix form of the expression (A+ B)*(C*D- E)*F / G is : AB + CD* E - *F *G /
+3) Which one of the following is an application of Stack Data Structure?
+      Managing function calls
+      The stock span problem
+      Arithmetic expression evaluation
+  ans)All of the above
+  
+4) Which of the following is the top pointer variable of the stack in it's linked representation? Start pointer
+5) The prefix form of an infix expression p + q - r * t is : - +pq * rt
+
+
+
+
+NOTE
+----
+
+Infix to Postfix: 
+Same preference: first one will go out
+Ex: +* --> when (-) is inserted * with higher precedence is popped first and then +-, first (+) was there, so + is popped.
+Ex: +** --> +*
+
+prefix evaluation:
+
+from last to first
+Expression: + 5 * 4 6  --->  6 4 ,*,24 5,+,29:ans
